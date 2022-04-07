@@ -5,7 +5,7 @@ app.controller("myAppController", function ($scope, $window) {
 	$scope.firstName = 'Deepak';
 	$scope.lastName = 'Kumar';
 	$scope.fullName = $scope.firstName + ' ' + $scope.lastName;
-	$scope.imageUrl = 'media/deepak_photo.jpg';
+	$scope.imageUrl = 'media/deepak_photo.png';
 	$scope.doj = '2019-03-19'; 
 	$scope.dob = '1997/08/20';
 	$scope.about = `I am a Software Engineer with almost ${dateDiff($scope.doj)} of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.`;
@@ -163,11 +163,11 @@ app.controller("myAppController", function ($scope, $window) {
 		}, {
 			name: 'linkedin',
 			class: 'bx bxl-linkedin',
-			href: 'https://www.linkedin.com/in/deepakkumartec/'
+			href: 'https://www.linkedin.com/in/deepakkumar88/'
 		}, {
 			name: 'github',
 			class: 'bx bxl-github',
-			href: '//github.com/coderaman07'
+			href: 'https://github.com/tech-deepak'
 		}, {
 			name: 'facebook',
 			class: 'bx bxl-facebook',
@@ -191,7 +191,7 @@ app.controller("myAppController", function ($scope, $window) {
 		}, {
 			name: 'telegram',
 			class: 'bx bxl-telegram',
-			href: 'https://t.me/coderaman077',
+			href: 'https://telegram.me/justdeepakkumar',
 		}, {
 			name: 'reddit',
 			class: 'bx bxl-reddit',
