@@ -40,6 +40,7 @@
 				<li><a href="#certification"><i class="bx bx-award"></i> <span>Certification</span></a></li>
 				<li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
 				<li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+				<li><a href="#recommendation"><i class="bx bx-like"></i> <span>Recommendations</span></a></li>
 				<li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
 				<li style="cursor: pointer;"><a onclick="myFunction()"><i class="bx bx-sun"></i> <span id="toChange">Dark Mode of this Website</span></a></li>
 			</ul>
@@ -177,6 +178,7 @@
 					</div>
 
 				</div>
+
 			</div>
 		</section>
 
@@ -258,6 +260,32 @@
 			</div>
 		</section>
 
+		<!-- Recommendations -->
+		<section id="recommendation" class="portfolio section-bg">
+			<div class="container" data-aos="fade-up">
+
+				<div class="section-title">
+					<h2 id="changeColor5">Recommendations</h2>
+				</div>
+
+				<div class="row skills-content">
+
+					<div id="recommendations" class="owl-carousel owl-theme">
+
+						<div class="item" ng-repeat="member in recommendations">
+							<div class="item-design">
+								<div class="member-name">{{ member.name }}</div>
+								<div class="member-message">{{ member.message }}</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Contact -->
 		<section id="contact" class="contact">
 			<div class="container" data-aos="fade-up">
 

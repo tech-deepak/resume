@@ -6,7 +6,7 @@ app.controller("myAppController", function ($scope, $window) {
 	$scope.lastName = 'Kumar';
 	$scope.fullName = $scope.firstName + ' ' + $scope.lastName;
 	$scope.imageUrl = 'media/deepak_photo.png';
-	$scope.doj = '2019-03-19'; 
+	$scope.doj = '2019-03-19';
 	$scope.dob = '1997/08/20';
 	$scope.about = `I am a Software Engineer with almost ${dateDiff($scope.doj)} of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.`;
 	$scope.website = window.location.href;
@@ -151,6 +151,28 @@ app.controller("myAppController", function ($scope, $window) {
 		}
 	];
 
+	$scope.recommendations = [
+		{
+			name: 'Pratibha Singh',
+			message: 'Worked for a few months only, but came to know him personally and professionally in both ways. Professionally good team player, and help and respect everyone. Personally, Deepak is full of life & wants to achieve the good heights in his career. Honest and integrity work as synonym for him.'
+		}, {
+			name: 'Shreenath Chaurasia',
+			message: 'Deepak is very dedicated and punctual. His contribution to his work is always remarkable. he is a stand-alone champion and while working with the team his performance got increased even more. His work quality will always makes him a key member of the team.'
+		}, {
+			name: 'Kalid Moin',
+			message: 'Deepak is always looking to learn new Technologies, He is a Quick learner.'
+		}, {
+			name: 'Pallavi Gupta',
+			message: "Deepak is an extremely hardworking, smart, competent, and diligent co-worker. He also has high levels of energy and productivity. He is a smart engineer who can come up to speed on new technologies quickly and start being effective from the get-go. It's a pleasure to work with him."
+		}, {
+			name: 'Adil Osama Rasheed',
+			message: 'Deepak has been an exceptional developer. He holds strong command on cutting edge technologies. He is always keen to take challenges and love to work on new technologies. I wish him best of luck for all his future endeavours.'
+		}, {
+			name: 'Ankita Vaish',
+			message: 'Deepak is a very focussed, calm, and committed team member who makes a great addition to any environment he works in. A confident and friendly member. He is an expert in his technical fields and delivers the work on time. Deepak is popular with his colleagues and clients alike and has a real passion and enthusiasm for the industry that shines through. I would highly recommend him.'
+		},
+	];
+
 	$scope.links = [
 		{
 			name: 'twitter',
@@ -281,7 +303,7 @@ app.controller("myAppController", function ($scope, $window) {
 		var startYear = startDate.getFullYear();
 		var february = (startYear % 4 === 0 && startYear % 100 !== 0) || startYear % 400 === 0 ? 29 : 28;
 		var daysInMonth = [31, february, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-	  
+
 		var yearDiff = endDate.getFullYear() - startYear;
 		var monthDiff = endDate.getMonth() - startDate.getMonth();
 		if (monthDiff < 0) {
@@ -300,19 +322,19 @@ app.controller("myAppController", function ($scope, $window) {
 		}
 
 		let newYear = '';
-		if(yearDiff == 1) {
+		if (yearDiff == 1) {
 			newYear = yearDiff + ' Year ';
-		} else if(yearDiff > 1) {
+		} else if (yearDiff > 1) {
 			newYear = yearDiff + ' Years ';
 		}
 
 		let month = '';
-		if(monthDiff == 1) {
+		if (monthDiff == 1) {
 			month = monthDiff + ' Month'
-		} else if(monthDiff > 1) {
+		} else if (monthDiff > 1) {
 			month = monthDiff + ' Months'
 		}
 
-		return newYear +''+ month;
+		return newYear + '' + month;
 	}
 });
