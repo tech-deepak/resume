@@ -161,31 +161,80 @@ function myFunction() {
 	}
 }
 
+function loadTypeTextAnimation() {
+	var i = 0;
+	var speed = 100;
+	var index = 0;
+	var showDesignations = '';
+	let data = [
+		"Open Source Developer",
+		"Tech - Blogger",
+		"Mobile Application Developer",
+		"Web Application Developer",
+		"Desktop Application Developer",
+		"Backend Developer"
+	];
+
+	let text = data[index];
+
+	function startTyping() {
+		if (i < text.length) {
+			showDesignations += text.charAt(i);
+			document.getElementById('typing').innerHTML = showDesignations;
+			i++;
+			setTimeout(startTyping, speed);
+		} else {
+			reverseTyping();
+		}
+	}
+
+	function reverseTyping() {
+		if (i != 0) {
+			showDesignations = showDesignations.substring(0, showDesignations.length - 1);
+			document.getElementById('typing').innerHTML = showDesignations
+			i--;
+			setTimeout(reverseTyping, speed);
+		} else {
+			index++;
+			if (data.length == index) {
+				index = 0;
+			}
+			text = data[index];
+			startTyping();
+		}
+	}
+
+	startTyping();
+}
+
+loadTypeTextAnimation()
+
 
 !(function ($) {
 	"use strict";
 
 	// Preloader
-	$(window).on('load', function () {
-		if ($('#preloader').length) {
-			$('#preloader').delay(100).fadeOut('slow', function () {
-				$(this).remove();
-			});
-		}
-	});
+	// $(window).on('load', function () {
+	// 	if ($('#preloader').length) {
+	// 		$('#preloader').delay(100).fadeOut('slow', function () {
+	// 			$(this).remove();
+	// 		});
+	// 	}
+	// });
 
 	// Hero typed
-	if ($('.typed').length) {
-		var typed_strings = $(".typed").data('typed-items');
-		typed_strings = typed_strings.split(',')
-		new Typed('.typed', {
-			strings: typed_strings,
-			loop: true,
-			typeSpeed: 100,
-			backSpeed: 50,
-			backDelay: 2000
-		});
-	}
+	// if ($('.typed').length) {
+	// 	var typed_strings = $(".typed").data('typed-items');
+	// 	console.log('sfdsfsdf',typed_strings)
+	// 	// typed_strings = typed_strings.split(',')
+	// 	new Typed('.typed', {
+	// 		strings: typed_strings,
+	// 		loop: true,
+	// 		typeSpeed: 100,
+	// 		backSpeed: 50,
+	// 		backDelay: 2000
+	// 	});
+	// }
 
 	// Smooth scroll for the navigation menu and links with .scrollto classes
 	$(document).on('click', '.nav-menu a, .scrollto', function (e) {

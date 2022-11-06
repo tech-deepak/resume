@@ -120,6 +120,11 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.educations = [
 		{
+			name: 'Master of Technology',
+			duration: '2022-2024',
+			college: 'Birla Institute Of Technology And Science-Pilani (BITS-Pilani)',
+			message: 'Currently I am going through Work Intergration Leaning Program from Bits pilani.'
+		}, {
 			name: 'Bachelor of Technology',
 			duration: '2015-2019',
 			college: 'Maharana Pratap College of Engineering , Kanpur',
@@ -139,10 +144,15 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.experiences = [
 		{
+			company: 'BIZ2CREDIT INFO SERVICES PVT. LTD.',
+			duration: 'Aug 2022 - present',
+			destination: 'Senior Software Engineer',
+			message: 'I am working here as a Senior Software Engineer and working on mainly on Angular.'
+		}, {
 			company: 'Eka Software Solution PVT. LTD.',
-			duration: 'Feb 2022 - present',
+			duration: 'Feb 2022 - Aug 2022',
 			destination: 'Software Engineer',
-			message: 'I am working here as a Software Engineer and working on mainly on Angular.'
+			message: 'I was working here as a Software Engineer and working on mainly on Angular. also parallelly I work on some other technologies like: Nodejs, MongoDB.'
 		}, {
 			company: 'W3villa Technologies PVT. LTD.',
 			duration: 'Mar 2019 - Jan 2022',
