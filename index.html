@@ -6,18 +6,41 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 	<title> Deepak Kumar | Full Stack Developer</title>
-	<meta content="" name="descriptison">
-	<meta content="" name="keywords">
+
+
+	<meta name="description" content="I am a Software Engineer with 4 Years of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.">
+	<meta name="keywords"  content="resume, deepak kumar, developer, fullstack developer, engineer, software engineer, company, deepak, kumar">
+	<meta name="robots"  content="follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<meta property='viewport' content="width=device-width, initial-scale=1">
+
+	<meta property='og:title' content="Deepak Kumar | Full Stack Developer" >
+	<meta property='og:description' content="I am a Software Engineer with 4 Years of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.">
+	<meta property='og:url' content="https://deepakkumar.info/">
+	<meta property='og:locale' content="en_US" >
+	<meta property='og:type' content="Resume">
+	<meta property='og:image' content="https://deepakkumar.info/media/deepak_photo.png">
+	<meta property='og:image:width' content="320">
+	<meta property='og:image:height' content="180">
+	<meta property='og:image:type' content="image/jpeg">
+	<meta property='og:site_name' content="https://deepakkumar.info/">
+
+	<meta property='author' content="Deepak Kumar">
+	<meta property='article' content="og:type">
+	<meta property='article:author' content="https://deepakkumar.info/">
+
+	<meta property='twitter:title' content="Deepak Kumar | Full Stack Developer">
+	<meta property="twitter:description" content="I am a Software Engineer with 4 Years of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.">
+	<meta property='twitter:url' content="https://deepakkumar.info/media/deepak_photo.png">
+	<meta property='twitter:domain' content="https://deepakkumar.info/">
+	<meta property='twitter:card' content="summary">
+	<meta property='twitter:creator' content="@https://twitter.com/DeepakjustD">
+	<meta property='twitter:label1' content="Written by">
+	<meta property='twitter:label2' content="Est. reading time">
+	<meta property='twitter:data1' content="Deepak Kumar">
+	<meta property='twitter:data2' content="3 minutes">
 
 	<link href="assets/img/favicon.png" rel="icon">
-
-	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i 400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
-
-	<!-- <link href="assets/vendor/bootstrap.min.css" rel="stylesheet"> -->
-	<!-- <link href="assets/vendor/boxicons.min.css" rel="stylesheet"> -->
-	<!-- <link href="assets/vendor/venobox.css" rel="stylesheet"> -->
-	<!-- <link href="assets/vendor/owl.carousel.min.css" rel="stylesheet"> -->
-	<!-- <link href="assets/vendor/aos.css" rel="stylesheet"> -->
 
 	<link href="assets/vendor/style.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
@@ -49,7 +72,6 @@
 
 		<nav class="nav-menu">
 			<ul>
-				<!-- bx:bx-award -->
 				<li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
 				<li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
 				<li><a href="#skills"><i class="bx bx-trending-up"></i> <span>Skills</span></a></li>
@@ -66,7 +88,7 @@
 	</header>
 
 	<section id="hero" class="d-flex flex-column justify-content-center">
-		<div class="container">
+		<div class="container container-class">
 			<a class="topRightTop" href="https://dev.to/deepakjustd"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="{{ fullName }}'s DEV Profile" height="30" width="30"></a>
 			<h1>{{ fullName }}</h1>
 			<p>I'm <span class="typed" id="typing"></span></p>
@@ -130,7 +152,6 @@
 				</div>
 
 				<div class="row skills-content">
-
 					<div class="col-lg-6" ng-repeat="skill in skills">
 						<div class="progress">
 							<span id="Color{{$index}}" class="skill">{{ skill.name }} <i class="val">{{ skill.performance }}%</i></span>
@@ -139,7 +160,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</section>
@@ -180,7 +200,6 @@
 				</div>
 
 				<div class="row skills-content">
-
 					<div id="owl-demo" class="owl-carousel owl-theme">
 						<div class="item" ng-repeat="certification in certifications">
 							<a href="{{ certification.imageUrl }}" data-gall="certificationGallery" class="venobox imageElement" title="{{ certification.title }}">
@@ -189,7 +208,6 @@
 							<p class="font-italic text-center">{{ certification.title }}</p>
 						</div>
 					</div>
-
 				</div>
 
 			</div>
@@ -282,9 +300,7 @@
 				</div>
 
 				<div class="row skills-content">
-
 					<div id="recommendations" class="owl-carousel owl-theme">
-
 						<div class="item" ng-repeat="member in recommendations">
 							<div class="item-design">
 								<div class="member-name">{{ member.name }}</div>
@@ -292,7 +308,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 			</div>
@@ -388,43 +403,17 @@
 	</footer>
 
 	<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
-	<!-- <div id="preloader"></div> -->
+
 	<script src="data.js"></script>
 
-	<!-- <script src="assets/vendor/jquery.min.js"></script> -->
-	<!-- <script src="assets/vendor/bootstrap.bundle.min.js"></script> -->
-	<!-- <script src="assets/vendor/jquery.easing.min.js"></script> -->
-	<!-- <script src="assets/vendor/jquery.waypoints.min.js"></script> -->
-	<!-- <script src="assets/vendor/counterup.min.js"></script>
-	<script src="assets/vendor/isotope.pkgd.min.js"></script>
-	<script src="assets/vendor/venobox.min.js"></script>
-	<script src="assets/vendor/owl.carousel.min.js"></script>
-	<script src="assets/vendor/typed.min.js"></script>
-	<script src="assets/vendor/aos.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
 	
 	<script src="assets/vendor/main.js"></script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script src="assets/vendor/particles-app.js"></script>
-	
-	<!-- <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
-	
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
-	
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script> -->
-	<!-- <script src="assets/vendor/validate.js"></script> -->
-
-
-
-
-	<!-- <button id="back-to-top" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></button> -->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-	<!-- <script src="assets/vendor/main.js"></script> -->
 
 </body>
 

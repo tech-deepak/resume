@@ -354,6 +354,14 @@ h6 {
 	}
 }
 
+.container-class {
+	position: relative;
+	z-index: 2;
+	opacity: 1;
+	transform: translateZ(0) scale(1);
+	width: auto;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
