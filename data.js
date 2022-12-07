@@ -163,6 +163,45 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.recommendations = [
 		{
+			name: 'Asheesh Pandey',
+			message: 'Deepak is very hard working, focused, and dedicated individual. He has a good sense of responsibility and is always ready for new challenges. His adaptability and pressure handling capabilities are simple commendable. He is an excellent team member and can be a good leader depending on the situation.'
+		}, {
+			name: 'Mariyam Kauser',
+			message: 'Deepak is a very hardworking and had very good technical knowledge. He is very calm in nature and always ready to help their juniors. He always inspire us. He is a good dancer too.. All the best for your future.'
+		}, {
+			name: 'Arvind Patel',
+			message: 'deepak sir is a nice guy . Haven\'t worked much with each other. he is a smart developer and quick learner. He always inspires me.'
+		}, {
+			name: 'Firoz Khan',
+			message: 'Deepak kumar is very Dedicated and Responsible towards his responsibilities. He is also helping nature with the colleagues and very humble person, and also a good team player . His technical abilities are very helpful for the team. It was a great experience to work with him.'
+		}, {
+			name: 'Anil Divaker',
+			message: 'Deepak sir was my senior i didn\'t get the chance to work with him but he is a very nice person, he always helps others and he is such a humble person and he always treat us like a younger brother'
+		}, {
+			name: 'Ajeet Singh',
+			message: 'We worked on same project , As a developer his adaptability and approach towards any bug or any feature is correct, His attitude and behaviour with colleague is good, which proves that he can work with any team. He also participated in every event of office that shows his enthusiasm.'
+		}, {
+			name: 'Sant Sharan Shukla',
+			message: 'I worked with Deepak in few projects and he has good technical knowledge. He understands problem very well and always comes up with a good solution. Always open to help others and to learn new things.'
+		}, {
+			name: 'Shubham Jeet',
+			message: 'Deepak is one of the most valuable people I have ever met. Both innovative and professional. Experienced, deadline oriented, and intelligent person. He is a fantastic person to work with and is not only a multi-skilled and insightful colleague but also an inspiring strategist. Very good person. A great employee with very strong problem solving skills. He is an asset to any company. I would highly recommend him. all the best for the future.'
+		}, {
+			name: 'Abhay Gupta',
+			message: 'Deepak is great software developer with good coding skills.Along with the coding skills he also have a good communication skills and he manage his work well.He is very goal oriented and hard working person.'
+		}, {
+			name: 'Marium Firdous',
+			message: 'I worked with Deepak for a year. He is smart, hardworking and very passionate toward his work. He is very resourcefull and has an eagerness to learn new things and share to others and always willing to help his colleague. I wish him all the best for his future'
+		}, {
+			name: 'Tanya Chauhan',
+			message: 'Deepak is very calm, hardworking and smart competent.He always takes up the new challenges . It\'s a pleasure to work with him.'
+		}, {
+			name: 'Avinash Singh',
+			message: 'I worked with him in front end project .He is good at it.'
+		}, {
+			name: 'Swati Gupta',
+			message: 'He is focused and good developer. His dedication towords work is appreciated. His logics are very clear.'
+		}, {
 			name: 'Pratibha Singh',
 			message: 'Worked for a few months only, but came to know him personally and professionally in both ways. Professionally good team player, and help and respect everyone. Personally, Deepak is full of life & wants to achieve the good heights in his career. Honest and integrity work as synonym for him.'
 		}, {
@@ -237,6 +276,13 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.projects = [
 		{
+			name: 'Eka1',
+			type: 'Web',
+			imageUrl_small: 'media/small_project/eka.png',
+			imageUrl: 'media/eka.png',
+			website: 'https://eka1.com/',
+			filter: 'web'
+		}, {
 			name: 'SuperOne',
 			type: 'Web',
 			imageUrl_small: 'media/small_project/superOne.png',

@@ -285,9 +285,9 @@ h6 {
 }
 
 @media (min-width: 992px) {
-	#hero {
+	/* #hero { */
 		/* padding-left: 160px; */
-	}
+	/* } */
 }
 
 #hero:before {
