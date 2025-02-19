@@ -120,11 +120,6 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.educations = [
 		{
-			name: 'Master of Technology',
-			duration: '2022-2024',
-			college: 'Birla Institute Of Technology And Science-Pilani (BITS-Pilani)',
-			message: 'Currently I am going through Work Intergration Leaning Program from Bits pilani.'
-		}, {
 			name: 'Bachelor of Technology',
 			duration: '2015-2019',
 			college: 'Maharana Pratap College of Engineering , Kanpur',
@@ -144,17 +139,22 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.experiences = [
 		{
-			company: 'BIZ2CREDIT INFO SERVICES PVT. LTD.',
-			duration: 'Aug 2022 - present',
+			company: 'Prudent Insurance Brokers Pvt. Ltd.',
+			duration: 'Jul 2024 - present',
+			destination: 'Senior Software Engineer',
+			message: 'I am working here as a Senior Software Engineer and working on mainly on Angular.'
+		},{
+			company: 'Biz2Credit Info Service Pvt. Ltd.',
+			duration: 'Aug 2022 - Apr 2024',
 			destination: 'Senior Software Engineer',
 			message: 'I am working here as a Senior Software Engineer and working on mainly on Angular.'
 		}, {
-			company: 'Eka Software Solution PVT. LTD.',
+			company: 'Eka Software Solution Pvt. Ltd.',
 			duration: 'Feb 2022 - Aug 2022',
 			destination: 'Software Engineer',
 			message: 'I was working here as a Software Engineer and working on mainly on Angular. also parallelly I work on some other technologies like: Nodejs, MongoDB.'
 		}, {
-			company: 'W3villa Technologies PVT. LTD.',
+			company: 'W3villa Technologies Pvt. Ltd.',
 			duration: 'Mar 2019 - Jan 2022',
 			destination: 'Software Developer',
 			message: 'I have completed almost 3 years as Software Developer on here. and experience in multiple technologies ex: Angular, Ionic, Nodejs, javascript, MySQL, MongoDB.'

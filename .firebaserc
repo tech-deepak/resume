@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "deepak-resume-d9bc8"
-  }
+    "default": "deepak-resume-d9bc8",
+    "production": "deepak-resume-d9bc8"
+  },
+  "targets": {},
+  "etags": {}
 }
