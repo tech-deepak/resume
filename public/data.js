@@ -143,7 +143,7 @@ app.controller("myAppController", function ($scope, $window) {
 			duration: 'Jul 2024 - present',
 			destination: 'Senior Software Engineer',
 			message: 'I am working here as a Senior Software Engineer and working on mainly on Angular.'
-		},{
+		}, {
 			company: 'Biz2Credit Info Service Pvt. Ltd.',
 			duration: 'Aug 2022 - Apr 2024',
 			destination: 'Senior Software Engineer',
@@ -163,8 +163,38 @@ app.controller("myAppController", function ($scope, $window) {
 
 	$scope.recommendations = [
 		{
-			name: 'Asheesh Pandey',
-			message: 'Deepak is very hard working, focused, and dedicated individual. He has a good sense of responsibility and is always ready for new challenges. His adaptability and pressure handling capabilities are simple commendable. He is an excellent team member and can be a good leader depending on the situation.'
+			name: 'Aman Pratik',
+			message: 'Deepak is good at his technical abilities. Having good sense of coding standards and always ensures quality based timely delivery of assigned task . Highly recommended.'
+		}, {
+			name: 'Keshav Wadhwa',
+			message: 'I highly recommend Deepak for his positive attitude, strong work ethics, analytical and problem solving skills. His meticulous approach to tasks and projects ensured accuracy and high-quality results.'
+		}, {
+			name: 'Mansha Mir',
+			message: 'Deepak and I have worked collaboratively on pro and I found him conscientious and very hardworking professional .He has ensured efficiency in many projects as-well as I know the fact his commitment and expertise helped the client’s vision translate into reality.'
+		}, {
+			name: 'Shubham Rawat',
+			message: "I worked with Deepak on several Angular projects, and I can confidently say that he is an exceptional software developer. He possesses a deep understanding of Angular and its ecosystem. Deepak's attention to detail and commitment to writing clean, maintainable code greatly contributed to the success of our projects. He consistently demonstrated strong problem-solving skills, quickly identifying and resolving complex issues to ensure project deadlines were met. /n Beyond technical expertise, Deepak is an excellent team player who communicates effectively and collaborates seamlessly with colleagues."
+		}, {
+			name: 'Nidhi Shukla',
+			message: 'Working with Deepak was a pleasure due to his exceptional problem solving abilities. He approached challenges with a creative and analytical mindset, consistently finding effective solutions. I highly recommend Deepak for his dedication, professionalism and ability to deliver results.'
+		}, {
+			name: 'Aagam Shah',
+			message: "I've had the pleasure of working with Deepak Kumar, and I can confidently say he's a dedicated professional with exceptional skills in Angular, JavaScript, TypeScript & NodeJS. Deepak's expertise, combined with his collaborative nature, makes him a valuable asset to any team. I highly recommend him."
+		}, {
+			name: 'Sahil Yadav',
+			message: 'Deepak Kumar is very Dedicated and Responsible towards his responsibilities. He is also helping nature with the colleagues and very humble person, and also a good team player. His technical abilities are very helpful for the team. It was a great experience to work with him.'
+		}, {
+			name: 'Manan Kataria',
+			message: "🌟 Highly recommend Deepak for his outstanding skills as an Angular developer! 🚀. Deepak's expertise in Angular development is truly remarkable. His attention to detail, problem-solving abilities, and commitment to delivering high-quality solutions make him a valuable asset to any project. 🌟 Highly recommend Deepak for his outstanding skills as an Angular developer! 🚀 Deepak's expertise in Angular development is truly remarkable. His attention to detail, problem-solving abilities, and commitment to delivering high-quality solutions make him a valuable asset to any project."
+		}, {
+			name: 'Khalid Moin',
+			message: "I am delighted to write a recommendation for Deepak kumar, an outstanding Angular developer whose expertise and dedication have significantly contributed to our projects. I had the pleasure of working closely with Deepak on several initiatives, and I am thoroughly impressed with their skills and professionalism. Deepak possesses an in-depth understanding of Angular and has consistently delivered high-quality solutions. Their ability to translate complex requirements into efficient and scalable Angular applications is truly commendable. He demonstrates a strong command of Angular's architecture, ensuring the development of robust and maintainable code. What sets Deepak apart is his proactive approach to problem-solving. He doesn't just address immediate issues but anticipates potential challenges, implementing solutions that stand the test of time. Deepak is a reliable team player, always ready to collaborate and share knowledge with colleagues. In addition to technical proficiency, Deepak exhibits excellent communication skills. He communicates complex concepts clearly and concisely, fostering a positive and collaborative working environment. His ability to interact with both technical and non-technical stakeholders makes him an invaluable asset to any project."
+		}, {
+			name: 'Bed Prakash Kushwaha',
+			message: "I highly recommend Deepak Kumar for his exceptional skills, dedication, and strong work ethic. Deepak consistently delivers high-quality results, demonstrating both technical expertise and a proactive approach to problem-solving. His collaborative nature and effective communication make him a valuable team member. Deepak's commitment to excellence and continuous improvement make him an asset to any project. I have thoroughly enjoyed working with him and am confident in his ability to excel in any professional endeavor."
+		}, {
+			name: 'Akshay Sharma',
+			message: "I had the pleasure of working closely with Deepak Kumar on several software development projects, and I highly recommend him for any challenging technical role. Deepak's technical expertise and problem-solving skills are truly commendable. He consistently delivered high-quality code, met tight deadlines, and collaborated effectively with the team. What sets Deepak apart is his ability to grasp complex concepts quickly and apply them to real-world scenarios. His dedication to staying updated with the latest industry trends and technologies greatly contributed to the success of our projects. Deepak's excellent communication skills and teamwork make him an asset to any development team."
 		}, {
 			name: 'Mariyam Kauser',
 			message: 'Deepak is a very hardworking and had very good technical knowledge. He is very calm in nature and always ready to help their juniors. He always inspire us. He is a good dancer too.. All the best for your future.'
@@ -179,19 +209,19 @@ app.controller("myAppController", function ($scope, $window) {
 			message: 'Deepak sir was my senior i didn\'t get the chance to work with him but he is a very nice person, he always helps others and he is such a humble person and he always treat us like a younger brother'
 		}, {
 			name: 'Ajeet Singh',
-			message: 'We worked on same project , As a developer his adaptability and approach towards any bug or any feature is correct, His attitude and behaviour with colleague is good, which proves that he can work with any team. He also participated in every event of office that shows his enthusiasm.'
+			message: 'We worked on same project , As a developer his adaptability and approach towards any bug or any feature is correct, His attitude and behavior with colleague is good, which proves that he can work with any team. He also participated in every event of office that shows his enthusiasm.'
 		}, {
 			name: 'Sant Sharan Shukla',
 			message: 'I worked with Deepak in few projects and he has good technical knowledge. He understands problem very well and always comes up with a good solution. Always open to help others and to learn new things.'
 		}, {
-			name: 'Shubham Jeet',
+			name: 'Subham Jeet',
 			message: 'Deepak is one of the most valuable people I have ever met. Both innovative and professional. Experienced, deadline oriented, and intelligent person. He is a fantastic person to work with and is not only a multi-skilled and insightful colleague but also an inspiring strategist. Very good person. A great employee with very strong problem solving skills. He is an asset to any company. I would highly recommend him. all the best for the future.'
 		}, {
 			name: 'Abhay Gupta',
 			message: 'Deepak is great software developer with good coding skills.Along with the coding skills he also have a good communication skills and he manage his work well.He is very goal oriented and hard working person.'
 		}, {
 			name: 'Marium Firdous',
-			message: 'I worked with Deepak for a year. He is smart, hardworking and very passionate toward his work. He is very resourcefull and has an eagerness to learn new things and share to others and always willing to help his colleague. I wish him all the best for his future'
+			message: 'I worked with Deepak for a year. He is smart, hardworking and very passionate toward his work. He is very resourceful and has an eagerness to learn new things and share to others and always willing to help his colleague. I wish him all the best for his future'
 		}, {
 			name: 'Tanya Chauhan',
 			message: 'Deepak is very calm, hardworking and smart competent.He always takes up the new challenges . It\'s a pleasure to work with him.'
@@ -200,7 +230,7 @@ app.controller("myAppController", function ($scope, $window) {
 			message: 'I worked with him in front end project .He is good at it.'
 		}, {
 			name: 'Swati Gupta',
-			message: 'He is focused and good developer. His dedication towords work is appreciated. His logics are very clear.'
+			message: 'He is focused and good developer. His dedication towards work is appreciated. His logics are very clear.'
 		}, {
 			name: 'Pratibha Singh',
 			message: 'Worked for a few months only, but came to know him personally and professionally in both ways. Professionally good team player, and help and respect everyone. Personally, Deepak is full of life & wants to achieve the good heights in his career. Honest and integrity work as synonym for him.'
@@ -215,7 +245,7 @@ app.controller("myAppController", function ($scope, $window) {
 			message: "Deepak is an extremely hardworking, smart, competent, and diligent co-worker. He also has high levels of energy and productivity. He is a smart engineer who can come up to speed on new technologies quickly and start being effective from the get-go. It's a pleasure to work with him."
 		}, {
 			name: 'Adil Osama Rasheed',
-			message: 'Deepak has been an exceptional developer. He holds strong command on cutting edge technologies. He is always keen to take challenges and love to work on new technologies. I wish him best of luck for all his future endeavours.'
+			message: 'Deepak has been an exceptional developer. He holds strong command on cutting edge technologies. He is always keen to take challenges and love to work on new technologies. I wish him best of luck for all his future endeavors.'
 		}, {
 			name: 'Ankita Vaish',
 			message: 'Deepak is a very focussed, calm, and committed team member who makes a great addition to any environment he works in. A confident and friendly member. He is an expert in his technical fields and delivers the work on time. Deepak is popular with his colleagues and clients alike and has a real passion and enthusiasm for the industry that shines through. I would highly recommend him.'

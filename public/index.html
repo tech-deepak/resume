@@ -9,15 +9,15 @@
 
 
 	<meta name="description" content="I am a Software Engineer with 4 Years of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.">
-	<meta name="keywords"  content="resume, deepak kumar, developer, fullstack developer, engineer, software engineer, company, deepak, kumar">
-	<meta name="robots"  content="follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<meta name="keywords" content="resume, deepak kumar, developer, fullstack developer, engineer, software engineer, company, deepak, kumar">
+	<meta name="robots" content="follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 	<meta property='viewport' content="width=device-width, initial-scale=1">
 
-	<meta property='og:title' content="Deepak Kumar | Full Stack Developer" >
+	<meta property='og:title' content="Deepak Kumar | Full Stack Developer">
 	<meta property='og:description' content="I am a Software Engineer with 4 Years of experience in technologies like Angular, NodeJs, MongoDB, React.js, etc. I have been fortunate to handle large to small-scale web applications.">
 	<meta property='og:url' content="https://deepakkumar.info/">
-	<meta property='og:locale' content="en_US" >
+	<meta property='og:locale' content="en_US">
 	<meta property='og:type' content="Resume">
 	<meta property='og:image' content="https://deepakkumar.info/media/deepak_photo.png">
 	<meta property='og:image:width' content="320">
@@ -156,7 +156,7 @@
 						<div class="progress">
 							<span id="Color{{$index}}" class="skill">{{ skill.name }} <i class="val">{{ skill.performance }}%</i></span>
 							<div class="progress-bar-wrap">
-								<div class="progress-bar" style="width:{{skill.performance}}%;"></div>
+								<div class="progress-bar" ng-style="{'width': skill.performance + '%'}"></div>
 							</div>
 						</div>
 					</div>
@@ -203,7 +203,7 @@
 					<div id="owl-demo" class="owl-carousel owl-theme">
 						<div class="item" ng-repeat="certification in certifications">
 							<a href="{{ certification.imageUrl }}" data-gall="certificationGallery" class="venobox imageElement" title="{{ certification.title }}">
-								<img ng-src="{{ certification.imageUrl_small }}" class="img-fluid certificationImage" alt="" >
+								<img ng-src="{{ certification.imageUrl_small }}" class="img-fluid certificationImage" alt="">
 							</a>
 							<p class="font-italic text-center">{{ certification.title }}</p>
 						</div>
@@ -220,7 +220,7 @@
 				<div class="section-title">
 					<h2 id="changeColor4">Resume</h2>
 					<p><span>My resume is all that describes me more than myself</span> </p>
-					<span><a href="media/Deepak_Kumar_Resume.pdf"><button style="margin-top: 1em;"class="btn btn-primary"><span style="scale: 1.5" class="bx bx-cloud-download"></span>Click Here to see my Resume</button></a> </span>
+					<span><a href="media/Deepak_Kumar_Resume.pdf"><button style="margin-top: 1em;" class="btn btn-primary"><span style="scale: 1.5" class="bx bx-cloud-download"></span>Click Here to see my Resume</button></a> </span>
 				</div>
 
 				<div class="row">
@@ -327,7 +327,7 @@
 
 						<div class="info" id="getElem">
 							<div class="address">
-								<i class='bx bxs-map' ></i>
+								<i class='bx bxs-map'></i>
 								<h4 id="Colors4">Location:</h4>
 								<p>{{ location }}</p>
 							</div>
@@ -339,7 +339,7 @@
 							</div>
 
 							<div class="phone">
-								<i class='bx bxs-phone' ></i>
+								<i class='bx bxs-phone'></i>
 								<h4 id="Colors6">Call:</h4>
 								<p>{{ phone }}</p>
 							</div>
@@ -408,7 +408,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-	
+
 	<script src="assets/vendor/main.js"></script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script src="assets/vendor/particles-app.js"></script>
